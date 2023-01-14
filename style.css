@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: raleway;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9f8c4;
+}
+
+.nav .contacts {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.links {
+  color: black;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: raleway, sans-serif;
+  margin-left: 10px;
+}
+
+.links:visited {
+  color: black;
+}
+
+.links:active {
+  color: blue;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  color: darkgoldenrod;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-color: #f9f9c5;
+  height: 700px;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+
+.gus {
+  width: auto;
+  height: 450px;
+  border-radius: 50px;
+  border: 2px solid darkgray;
+}
+
+.text {
+  width: 750px;
+}
+
+.hero {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: lightsalmon;
+}
+
+section {
+  background-color: #fad9a1;
+  height: 950px;
+}
+
+.dishes {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.top {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  height: auto;
+  width: 500px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.cards {
+  padding: 15px;
+  background-color: whitesmoke;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.testimony {
+  background-color: #f37878;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rev {
+  font-size: 70px;
+  font-weight: 600;
+  color: wheat;
+  width: 1450px;
+  height: 350px;
+  padding: 30px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.name {
+  margin-left: 900px;
+  margin-top: 15px;
+  font-size: 45px;
+  color: wheat;
+  background-color: black;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.contact {
+  background-color: #febe8c;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.contact div {
+  width: 1450px;
+  height: 350px;
+  margin-top: 200px;
+}
+
+.butt {
+  height: auto;
+}
